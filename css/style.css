@@ -60,7 +60,7 @@ main {
 
 .image-container .image {
     margin: 0 6px 16px 6px;
-    width: calc(100% /7 - 12px);
+    min-width: calc(100% /7 - 12px);
     position: relative;
 }
 
