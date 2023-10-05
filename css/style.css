@@ -14,13 +14,28 @@
     margin: 0 auto;
 }
 
+header,
+main {
+    color: white;
+    font-size: 10px;
+}
+
 /* #endregion COMMON*/
 
 /* #region HEADER*/
 
 header {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
     height: 78px;
-    background-color: red;
+}
+
+header div {
+    background-color: #4a4a4a;
+    margin: 7px 5px 48px 0;
+    padding: 5px;
+    border-radius: 6px;
 }
 
 /* #endregion HEADER*/
@@ -30,7 +45,7 @@ header {
 main {
     background-color: black;
     height: calc(100vh - 158px);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .container .image-container {
@@ -54,9 +69,7 @@ main {
     position: absolute;
     bottom: 0;
     left: 0;
-    color: white;
     background-color: rgba(106, 104, 104, 0.5);
-    font-size: 10px;
     padding: 5px;
 
 }
